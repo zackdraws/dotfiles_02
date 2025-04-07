@@ -12,11 +12,11 @@ style: |
     left: 0;
     width: 100%;
     height: 100px;
-    background-color: #1DB954; /* Spotify green */
-    z-index: 9999; /* Ensures it stays on top */
+    background-color: #1DB954;
+    z-index: 9999; 
   }
   .header {
-    background-color: #1DB954; /* Spotify green */
+    background-color: #1DB954; 
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -32,16 +32,16 @@ style: |
   }
   section h1, section h2, section h3 {
     font-family: 'Roboto', sans-serif;
-    color: #1DB954; /* Spotify green */
-    text-align: left; /* Align title to the left */
-    position: absolute; /* Position title absolutely */
-    top: 120px; /* Position title below the green banner */
-    margin-left: 20px; /* Add margin from the left edge */
+    color: #1DB954; 
+    text-align: left; 
+    position: absolute; 
+    top: 120px; 
+    margin-left: 20px; 
   }
   .right-images {
     display: flex;
     justify-content: flex-end;
-    gap: 20px; /* Space between the images */
+    gap: 20px; 
   }
   .right-images img {
     max-width: 150px;
